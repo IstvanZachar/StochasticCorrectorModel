@@ -1,0 +1,13 @@
+RandomSeed: positive integer for random seed.
+TimeSteps: maximum number of steps; should be at least in the magnitude of s*p otherwise no split is expected.
+MaxStoreSteps: a maximum of this many steps are stored.
+PopulationSize: population size, number of compartments.
+SplitDensity: split at this compartment size; split happens when the size S of compartment i is S_i >= s. 
+EnzymeNumber: number of different enzyme classes, each with good and medium states; junk and parasite have no different classes. 
+FusionRate: 0.2,probability of fusion. 
+FitnessDependentFusion: -1 = inversely proportionate; 1 = directly proportionate; 0 = not proportionate to fitness; 2 = only fuse partner below FusionFitnessLimit 
+FusionFitnessLimit: fitness limit for fitness dependent fusion
+EznymeActivity: list of enzyme activity for {good, medium} enzymes in this order; junk and parasite have 0 activity by default.
+ReplicationRate: list of replication affinity of {good, medium, junk, parasite} in this order
+InitialEnzymeRange: list of initial maximum values for random good, medium, junk and parasite enzymes, in this order; good and medium have N_g and N_m for each of their n classes. Actual values are be drawn randomly from (0, N-1).
+MutationRate: mutation rate matrix where m_xy = mutation rate of transiting from state x to state y; rows are the source state in the order {good, medium, junk, parasite}
