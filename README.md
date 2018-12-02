@@ -7,5 +7,16 @@ Víg-Milkovics, Zs., Zachar, I.*, Kun, Á., Szilágyi, A. & Szathmáry, E. 2019 
 
 Example parameter input file is config.cfg. For parameter details, see parameters.txt.
 
-István Zachar
+For questions, comments and bug reports, please email:
+István Zachar at istvan[dot]zachar80[at]gmail[dot]com
+
+Find me at:
+Google Scholar: https://scholar.google.com/citations?user=DLfNQUcAAAAJ
+ResearchGate: https://www.researchgate.net/profile/Istvan_Zachar
+ORCID: http://orcid.org/0000-0002-3505-0628
+GitHub: https://github.com/IstvanZachar
+Mathematica.StackEschange: http://mathematica.stackexchange.com/users/89/istv%C3%A1n-zachar
+MTA ÖK: https://www.okologia.mta.hu/en/Istvan.ZACHAR
+ELTE University: http://plantsys.elte.hu/drupal/en/munkatarsak/istvanzachar_en
+
 2018 12. 2.
